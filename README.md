@@ -16,7 +16,9 @@ Docker will be installed if needed, then building the container, running it then
 - client host can be any linux distribution supported by docker installer
 - target host must meet the hardware requirement for running controller,
 - client host and target host must be connected to internet, after installation internet acces is no longer needed
-- client and target host must be accessible at least on SSH port TCP/22
+- client and target host must be accessible at least on SSH port TCP/22 for installation
+- Avi controller need opened ports TCP 22,80,8443,123,443
+- tested with ubuntu 16.04 & 18.04 as client and centos 7 as target
 
 # references
 - https://github.com/avinetworks/ansible-role-avicontroller
