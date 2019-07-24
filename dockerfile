@@ -2,7 +2,7 @@ FROM alpine:3.7
 
 # build ansible with requirements
 
-ENV ANSIBLE_VERSION 2.5.0
+ENV ANSIBLE_VERSION 2.6.6
 
 ENV BUILD_PACKAGES \
   bash \
