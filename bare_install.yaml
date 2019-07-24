@@ -1,7 +1,7 @@
 - hosts: all
   vars:
 # Avi Controller version can be changed to match any tag from https://hub.docker.com/r/avinetworks/controller/tags
-    avi_con_version: 18.1.2-9058-20180623.025526
+    avi_con_version: 18.2.4-9004-20190601.115705
   tasks:
     - name: Avi Controller | Setup docker
       include_role:
