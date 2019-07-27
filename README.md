@@ -19,7 +19,7 @@ Docker will be installed if needed, then building the container, running it then
 - client and target host must be accessible at least on SSH port TCP/22 for installation
 - Avi controller need opened ports TCP 22,80,8443,123,443
 - tested with ubuntu 16.04 & 18.04 as client and centos 7 as target
-- tested with photon 3.0 just need to enable docker and install git first ('systemctl start docker && systemctl enable docker && tdnf install git -y && reboot now' ) 
+- tested with photon 3.0 as client, just need to enable docker and install git first ('systemctl start docker && systemctl enable docker && tdnf install git -y && reboot now' ) 
 
 # references
 - https://github.com/avinetworks/ansible-role-avicontroller
